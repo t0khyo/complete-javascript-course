@@ -72,6 +72,7 @@ console.log(ageAbdelrahman > ageMohamed);
 console.log(ageAbdelrahman >= 18);
 */
 
+/*
 const firsName = 'Abdelrahman';
 const job = 'developer';
 const birthYear = 2004;
@@ -87,3 +88,63 @@ console.log('string\nwith\nmultiple\nlines');
 console.log(`String
 multiple
 lines`);
+*/
+
+/*
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log('Abdelrahman can start driving license ⚓');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Abdelrahman is too young. Wait another ${yearsLeft} years ;)`);
+}
+
+const birthYear = 1991;
+let century;
+
+if(birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);
+*/
+
+/*
+// 5  falsy values: 0, '', undefined, null, NaN.
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Hello'));
+console.log(Boolean(''));
+
+const money = 0;
+if(money) {
+    console.log("Don't spend it all :0");
+} else {
+    console.log('you should get a job!');
+}
+*/
+
+/*
+const age = '18';
+if (age === 18) console.log('you just became 18 (strict)');
+
+if (age == 18) console.log('you just became 18 (loose)');
+
+const favorite = Number(prompt("what's your favorite number?"));
+console.log(favorite, typeof(favorite));
+
+if(favorite === 23) {
+    console.log("Cool! 23 is an amazing number!");
+} else if(favorite === 7) {
+    console.log("7 is also cool number");
+} else {
+    console.log("number is not 23 or 7");
+}
+
+if (favorite !== 23) console.log("why not 23?");
+*/
+
